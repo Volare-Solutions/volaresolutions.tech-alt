@@ -15,10 +15,10 @@ const siteConfig = {
   privacyUrl: '#',
   header: {
     links: [
-      {
-        id: 'features',
-        label: 'Features',
-      },
+      // {
+      //   id: 'features',
+      //   label: 'Features',
+      // },
       {
         id: 'pricing',
         label: 'Pricing',

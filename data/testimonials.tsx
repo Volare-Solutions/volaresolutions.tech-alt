@@ -1,40 +1,33 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'Loved by Founders',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
-      avatar:
-        'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
+      name: 'Noah Lieberman',
+      description: 'Telly College',
+      avatar: '',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “Working with Volare Solutions has been a game changer. Their attention to detail and communication is top-notch. They've helped us streamline our operations and enhance our services.”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
-      avatar: '/static/images/avatar2.jpg',
+      name: 'Nico MacDonald',
+      description: 'TPG Studios',
+      avatar: '',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          "With Volare Solutions running our IT department, I can focus on what I'm good at and leave the technical details to them. It's amazing how smoothly our business runs and how much stress has been lifted. They're an invaluable partner."
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
-      avatar: '/static/images/avatar3.jpg',
+      name: 'Max Zinn',
+      description: 'Toro App',
+      avatar: '',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          "Volare Solutions has significantly reduced our turnover time from design to product. Their consulting skills and the analytics provided have given us great insights into our business. We're thrilled with the results."
         </>
       ),
     },

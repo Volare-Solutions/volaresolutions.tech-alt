@@ -3,111 +3,140 @@ import { HStack, Text } from '@chakra-ui/react'
 export default {
   title: 'Pricing for every stage',
   description:
-    'Pay once and get life-time access to our high quality components.',
+    'Pay once and get life-time access to our high quality solutions.',
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
-      price: 'Free',
+      id: 'portfolio',
+      title: 'Portfolio Website',
+      description: 'Perfect for both business and personal use.',
+      price: <HStack>
+        <Text textDecoration="line-through" fontSize="sm" color="gray.400">
+        $1999.99
+        </Text>
+        <Text>$999.99</Text>
+      </HStack>,
       features: [
+        {
+          title: 'Responsive Design',
+        },
+        {
+          title: 'Cloud Image Hosting',
+        },
         {
           title: 'MIT License',
         },
+        null,
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: 'Full Content Management System',
+          iconColor: 'green.400',
         },
         {
-          title: 'Form (react-hook-form)',
+          title: 'Customizable Templates',
+          iconColor: 'green.400',
         },
         {
-          title: 'Modals manager',
-        },
-        {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
+          title: 'SEO Optimized',
+          iconColor: 'green.400',
         },
       ],
       action: {
-        href: '#',
+        label: 'Get Started',
+        href: '/signup',
       },
     },
     {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
-      price: 'Free',
+      id: 'contract',
+      title: 'Contract Work',
+      description: 'Flexible and tailored solutions for your specific needs.',
+      price: 'Custom',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: 'Dedicated Developer(s)',
         },
         {
-          title: 'One developer',
+          title: 'Regular Progress Updates',
         },
         {
-          title: 'Advanced components',
+          title: 'Quality Assurance',
         },
         {
-          title: 'Multiple themes',
+          title: 'Flexible Payment Terms',
         },
         {
-          title: 'Next.js and Electron boilerplates',
+          title: 'Confidentiality & Security',
         },
         {
-          title: 'Private discord community',
-        },
-        {
-          title: '1 year of updates',
+          title: 'Access to Expertise',
         },
         null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Custom Project Scope',
+          iconColor: 'green.400',
         },
+        {
+          title: 'Scalable Solutions',
+          iconColor: 'green.400',
+        },
+        {
+          title: 'Post-Project Support',
+          iconColor: 'green.400',
+        },
+
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        label: 'Get Started',
+        href: '/signup',
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
+      id: 'ecommerce',
+      title: 'E-commerce Website',
+      description: 'Comprehensive solution for online businesses.',
       price: (
         <HStack>
           <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
+          $4999.99
           </Text>
-          <Text>€499,-</Text>
+          <Text>$3499.99</Text>
         </HStack>
       ),
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'Customizable Templates',
         },
         {
-          title: 'Unlimited developers',
+          title: 'Full Content Management System',
         },
         {
-          title: '1 year of updates',
+          title: 'Cloud Image Hosting',
         },
         {
-          title: 'Everything from Bootstrap',
+          title: 'Responsive Design',
+        },
+        {
+          title: 'SEO Optimized',
+        },
+        {
+          title: 'MIT License',
         },
         null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Admin Analytics Dashboard',
+          iconColor: 'green.400',
+        },
+        {
+          title: 'Payment System',
+          iconColor: 'green.400',
+        },
+        {
+          title: 'Email Marketing',
+          iconColor: 'green.400',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        label: 'Get Started',
+        href: '/signup',
       },
     },
   ],
